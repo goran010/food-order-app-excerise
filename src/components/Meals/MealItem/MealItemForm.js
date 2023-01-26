@@ -11,7 +11,7 @@ const MealItemForm = (props) => {
     if (
       enteredAmount < 1 ||
       enteredAmount > 5 ||
-      enteredAmount.toString.length == 0
+      enteredAmount.toString.length === 0
     ) {
       setAmountIsValid(false);
       return;
